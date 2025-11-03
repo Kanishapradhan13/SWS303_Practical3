@@ -33,7 +33,7 @@ Configure network (Kali uses NetworkManager):
 
 ![alt text](<assets/Screenshot from 2025-11-03 21-05-30.png>)
 
-### Install and Configure Tools on Ubuntu
+## Install and Configure Tools on Ubuntu
 
 Install iptables-persistent
 
@@ -45,6 +45,41 @@ Snort 3 requires several dependencies
 
 ![alt text](assets/image2.png)
 
+Configure Snort 3
+
+Create basic Snort configuration
+
+![alt text](assets/image3.png)
+
+Create local rules file
+
+![alt text](assets/image4.png)
+
+### Configure Baseline Firewall Rules
+
+#### Set Default Policies
+
+![alt text](assets/image5.png)
+
+#### View and Save Rules
+
+![alt text](assets/image6.png)
+
+![alt text](assets/image7.png)
+
+#### Test Firewall
+
+From Kali VM:
+
+![alt text](assets/image8.png)
+
+check logs on ubuntu :
+
+![alt text](assets/image9.png)
+
+## Egress Busting Detection
+
+### Restrict Egress Traffic
 
 
 
